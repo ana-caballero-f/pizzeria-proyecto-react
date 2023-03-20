@@ -1,8 +1,10 @@
+import styles from './MultiCommentPage.module.scss';
+
 export default function MultiCommentPage () {
 
     return (
-        <div>
-           
+        <div className={styles.MultiCommentPage}>
+           <h1>multi comentarios page</h1>
         </div>
     )
 }

@@ -1,8 +1,10 @@
+import styles from './CommentPage.module.scss';
+
 export default function CommentPage () {
 
     return (
-        <div>
-           
+        <div className={styles.CommentPage}>
+           <h1>Comentario individual</h1>
         </div>
     )
 }
