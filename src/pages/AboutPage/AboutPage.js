@@ -1,10 +1,12 @@
 import styles from './AboutPage.module.scss';
+import AboutComponent from '../../components/AboutComponent/AboutComponent'
 
 export default function AboutPage () {
 
     return (
         <div className={styles.AboutPage}>
-            <h1>about page</h1>
+            <AboutComponent></AboutComponent>
+            <h1>About Page</h1>
         </div>
     )
 }
