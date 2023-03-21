@@ -1,6 +1,29 @@
 .CartaComponent {
+    border: 1px solid brown;
+    
     h2 {
-        color: red ;
+        color: rgb(98, 4, 4) ;
+        margin-top: 40px;
     }
+
+    
+}
+.TitleCarta {
+    font-family:monospace;
+    font-weight: bolder; 
+}
+
+.ContainerCarta {
+    display: flex;
+    flex-direction:column-reverse
+}
+.Name {
+    font-weight:bold;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.Price {
+    margin-bottom: 20px;
+    font-size: 20px;
 }
 
