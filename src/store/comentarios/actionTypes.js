@@ -1,3 +1,3 @@
-export const GET_COMMENTS = "GET_POSTS"
-export const GET_COMMENTS_OK = "GET_POSTS_OK"
-export const GET_COMMENTS_FAIL = "GET_POSTS_FAIL"
+export const GET_COMMENTS = "GET_COMMENTS"
+export const GET_COMMENTS_OK = "GET_COMMENTS_OK"
+export const GET_COMMENTS_FAIL = "GET_COMMENTS_FAIL"

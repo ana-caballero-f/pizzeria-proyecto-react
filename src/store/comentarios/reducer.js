@@ -5,7 +5,7 @@ import {
 } from './actionTypes'
 
 const initialState = {
-    commments: [],
+    comments: [],
     loadingComments: false,
     error: {
         message: ""
@@ -19,7 +19,7 @@ export default function ComentariosReducer(state = initialState, action) {
             break
 
         case GET_COMMENTS_OK:
-            state = {...state, loadingComments: false, commments: action.payload}
+            state = {...state, loadingComments: false, comments: action.payload}
             break
 
         case GET_COMMENTS_FAIL:

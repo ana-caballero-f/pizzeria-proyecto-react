@@ -14,20 +14,35 @@ const MultiCommentsComponent = () => {
 
   useEffect(() => {
     dispatch(getComments())
-  }, [])
+  },[])
 
   return(
   <Container>
      {comments.map(comentario => {
      return (
-      <Card>
+      <Card className='px-6 py-3 mb-4'>
         <Card.Title>{comentario.name}</Card.Title>
-        <Card.Text>{comentario.body}</Card.Text> 
+        <Card.Title>{comentario.body}</Card.Title>
       </Card>
      )
      })}
   </Container>
   )
+
+     {/* prueba con yelp */}
+    //  return(
+      // <Container>
+        {/* {comments.reviews.map(comentario => { */}
+        {/* return ( */}
+        // <Card>
+        {/* <Card.Title>{comentario.reviews.url}</Card.Title> */}
+        {/* <Card.Text>{comentario.reviews.user}</Card.Text>  */}
+        // </Card>
+      // )
+    // })}
+    // </Container>
+
+
 };
 
 MultiCommentsComponent.propTypes = {};
