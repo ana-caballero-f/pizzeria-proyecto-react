@@ -18,17 +18,36 @@ const ReservasComponent = () => {
   }
   
   return ( 
-    <div className={styles.ReservasComponent}>
-    <h1>HAZ TU RESERVA:  </h1>
+  <div className={styles.ReservasComponent}>
 
-    {/* Importo el formulario y le paso por props el estado y la función para recoger los nuevos datos desde el formulario */}
-    <section>
-      <UserForm userData={userData} handleChangeData={changeData}></UserForm>
-    </section>
+      <div className={styles.Contacto}>
 
-    <section>
-    <h3>{`nombre: ${userData.name} y son ${userData.people}personas a las ${userData.time} el día ${userData.date}`}</h3>
-    </section>
+      <h2>CONTACTA CON NOSOTROS</h2>
+        <p> ☎️ 777-777-777 </p>
+        <p> 📍 C/ Arroyo, 17. Madrid</p>
+        <p> 📧 vecchianapoli@gmail.com</p> 
+        <p> ⏰ de 13:00h-16:00h / 19:30h-23:00h </p>
+        <p>Lunes cerrado por descanso</p> 
+      
+      </div>
+
+
+    
+      <div className={styles.Formulario}>
+        <h2>HAZ TU RESERVA</h2>
+
+        {/* Importo el formulario y le paso por props el estado y la función para recoger los nuevos datos desde el formulario */}
+        <section>
+          <UserForm userData={userData} handleChangeData={changeData}></UserForm>
+        </section>
+
+        {/*  
+        <section>
+          <h3>{`nombre: ${userData.name} y son ${userData.people}personas a las ${userData.time} el día ${userData.date}`}</h3>
+        </section>
+        */}
+      </div>
+
   </div>
 );
 }
