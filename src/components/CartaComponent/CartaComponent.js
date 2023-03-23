@@ -1,12 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './CartaComponent.module.scss';
+import SimpleBar from 'simplebar-react';
+import 'simplebar-react/dist/simplebar.min.css';
 
 import { CARTA } from '../../CARTA/CARTA';
 
 const { pizzas, pastas, postres, bebidas } = CARTA;
 
 const CartaComponent = () => (
+  <SimpleBar style={{ maxHeight: 500 }}>
   <div className={styles.CartaComponent}>
   
     <div className={styles.TitleCarta}>
@@ -85,6 +88,7 @@ const CartaComponent = () => (
 
     
   </div>
+  </SimpleBar>
 );
 
 CartaComponent.propTypes = {};
