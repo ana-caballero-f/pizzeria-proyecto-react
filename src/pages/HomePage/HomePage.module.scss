@@ -1,11 +1,11 @@
 .HomePage {
-   
     background-color: orange;
-   background-image: image("pizza.jpg");
-
+    background-image: url("../../assets/images/pizza.jpg");
+    background-size: cover; 
 }
 
-.Image {
-    
-    // object-fit: contain;
-}
+// .Image {
+//     width: 1000px;
+//     height: 1000px;
+//     object-fit: cover;
+// }

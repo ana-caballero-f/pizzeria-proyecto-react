@@ -1,8 +1,30 @@
 .HomeComponent {
+width: 1000px;
+height: 1000px;
+}
+
+.Links {
+
 
 }
 
 .NavLink {
     text-decoration: none;
-    color: black;
+    color: rgb(253, 248, 248);
+    font-family: monospace;
+    
+    font-size: 1.8em;
+    margin-right: 50px;
+
+    position: absolute; 
+    top: 700px;
+    right: 700px;
+}
+
+
+.Name {
+    font-size: 5em;
+    text-shadow: 2px 2px 8px #f9f3f3;
+    position: absolute;
+    right: 600px;
 }
