@@ -12,6 +12,8 @@ height: 1000px;
     text-decoration: none;
     color: rgb(253, 248, 248);
     font-family: monospace;
+    display: flex;
+    justify-content: space-around;
     
     font-size: 1.8em;
     margin-right: 50px;
@@ -23,8 +25,9 @@ height: 1000px;
 
 
 .Name {
+    font-family: monospace;
     font-size: 5em;
     text-shadow: 2px 2px 8px #f9f3f3;
-    position: absolute;
+   /* position: absolute;*/
     right: 600px;
 }
