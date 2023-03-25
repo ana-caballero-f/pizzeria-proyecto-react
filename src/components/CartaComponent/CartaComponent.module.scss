@@ -3,7 +3,7 @@
     text-align: center;
     
     h2 {
-        color: rgb(98, 4, 4) ;
+        color: rgb(200, 17, 17) ;
         margin-top: 40px;
     }
 
@@ -11,17 +11,21 @@
 }
 .TitleCarta {
     font-family:monospace;
-    font-weight: bolder; 
+    font-weight: bolder;
+    
+    
 }
 
 .ContainerCarta {
     display: flex;
-    flex-direction:column-reverse
+    flex-direction:column-reverse;
+    
 }
 .Name {
     font-weight:bold;
     font-size: 20px;
     margin-top: 30px;
+    color:rgb(2, 103, 63);
 }
 .Price {
     margin-bottom: 20px;

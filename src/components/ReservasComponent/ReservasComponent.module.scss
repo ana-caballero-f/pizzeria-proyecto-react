@@ -1,7 +1,4 @@
-body {
-    background-image: url("../../assets/images/contacto.jpg");
-    background-size: cover;
-}
+
 
 .ReservasComponent {
     display: flex;
@@ -11,6 +8,11 @@ body {
     font-family: monospace;
     width: 100%;
     height: 100%;
+
+    
+    background-image: url("../../assets/images/contacto.jpg");
+    background-size: cover;
+   
     
     
 }

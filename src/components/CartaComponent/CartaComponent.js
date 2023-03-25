@@ -9,7 +9,7 @@ import { CARTA } from '../../CARTA/CARTA';
 const { pizzas, pastas, postres, bebidas } = CARTA;
 
 const CartaComponent = () => (
-  <SimpleBar style={{ maxHeight: 500 }}>
+  <SimpleBar style={{backgroundcolor: 'whitesmoke', maxHeight: 500 }}>
   <div className={styles.CartaComponent}>
   
     <div className={styles.TitleCarta}>
