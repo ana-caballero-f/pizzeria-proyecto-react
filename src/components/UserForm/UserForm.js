@@ -26,7 +26,7 @@ const UserForm = ({userData, handleChangeData}) => (
       <label>Nº de personas: </label>
       <input type="number" name="people" defaultValue={userData.people} onChange={handleChangeData}></input> <br/>
     
-      <input type="submit"></input>
+      <input type="submit" className={styles.Submit}></input>
     </form>
   </div>
 );

@@ -1,1 +1,23 @@
-.UserForm {}
+.UserForm {
+    width: 400px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+
+}
+input {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+
+}
+.Submit {
+    background-color: rgb(52, 94, 13);
+    padding: 10px;
+}
+.Submit:hover {
+    cursor: pointer;
+}
