@@ -27,7 +27,7 @@ const ReservasComponent = () => {
         <p> 📍 C/ Arroyo, 17. Madrid</p>
         <p> 📧 vecchianapoli@gmail.com</p> 
         <p> ⏰ de 13:00h-16:00h / 19:30h-23:00h </p>
-        <p>Lunes cerrado por descanso</p> 
+        <h4>Lunes cerrado por descanso</h4> 
       
       </div>
 
