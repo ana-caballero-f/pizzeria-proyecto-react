@@ -32,7 +32,7 @@ const CartaComponent = () => (
       })}
     </div>
     <div className={styles.TitleCarta}>
-    <hr/>
+    <br/>
       <h2>PASTA CASERECCIA </h2>
       <p>Nuestras pastas son artesanales y elaboradas en el día</p>
       
@@ -50,7 +50,7 @@ const CartaComponent = () => (
       })}
     </div>
     <div className={styles.TitleCarta}>
-    <hr/>
+    <br/>
       <h2>DOLCE FAR NIENTE </h2>
       <p>Ahora es el momento de dejarte llevar por nuestros postres</p>
      
@@ -68,8 +68,8 @@ const CartaComponent = () => (
       })}
     </div>
     <div className={styles.TitleCarta}>
-    <hr/>
-      <h2>BEVANDE </h2>
+    <br/>
+      <h2>LE NOSTRE BEVANDE </h2>
       <p>Acompaña tus platos con nuestra selección de bebidas</p>
       
     </div>

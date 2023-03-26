@@ -1,11 +1,11 @@
 .BodyCarta {
-    background-image: url("../../assets/images/fondo4.avif");
+    background-image: url("../../assets/images/fondo6.jpg");
     background-size: cover;  
 }
 
 .CartaComponent {
-    border: 1px solid #a52a2a;
-    text-align: center;
+    
+    
     margin-left: auto;
     margin-right: auto;
     max-width: 85%;
@@ -21,12 +21,12 @@
 }
 /* SCROLLBAR */
 
-.Simplebar::-webkit-scrollbar {
+/*.Simplebar::-webkit-scrollbar {
     width: 12px;
 }
 
 .Simplebar::-webkit-scrollbar-track {
-    background: #333;
+    background: #27d3d3;
 }
 
 .Simplebar::-webkit-scrollbar-thumb {
@@ -34,17 +34,24 @@
     border-radius: 20px;
     border: 3px solid #333;
 }
-
+*/
 .TitleCarta {
     font-family:monospace;
     font-weight: bolder;
+    font-size: 20px;
+    padding-bottom: 20px;
     
+    
+}
+.TitleCarta h2:hover {
+    text-decoration: underline;
     
 }
 
 .ContainerCarta {
     display: flex;
     flex-direction:column-reverse;
+    text-align:left;
     font-family: 'Courier New', Courier, monospace;
     
 }
@@ -54,6 +61,12 @@
     font-size: 20px;
     margin-top: 30px;
     color:rgb(2, 103, 63);
+}
+
+
+
+.Ingredients {
+    
 }
 .Price {
     margin-bottom: 20px;

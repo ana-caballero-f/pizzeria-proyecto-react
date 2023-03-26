@@ -14,7 +14,7 @@ export const CARTA = {
         },
         {
             name:"DIAVOLA", 
-            ingredients: "Base de tomate, mozzarella, salame picante, nduja di calabria, peperonciono dolce y parmesano",
+            ingredients: "Base de tomate, mozzarella, salame picante, nduja di calabria, peperoncino dolce y parmesano",
             price: "13,50 €",
 
         },
