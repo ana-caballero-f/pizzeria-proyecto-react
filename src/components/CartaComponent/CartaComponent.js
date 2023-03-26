@@ -9,7 +9,8 @@ import { CARTA } from '../../CARTA/CARTA';
 const { pizzas, pastas, postres, bebidas } = CARTA;
 
 const CartaComponent = () => (
-  <SimpleBar style={{backgroundcolor: 'whitesmoke', maxHeight: 500 }}>
+  <body className={styles.BodyCarta}>
+  <SimpleBar style={{ maxHeight: 900 }}>
   <div className={styles.CartaComponent}>
   
     <div className={styles.TitleCarta}>
@@ -89,6 +90,7 @@ const CartaComponent = () => (
     
   </div>
   </SimpleBar>
+  </body>
 );
 
 CartaComponent.propTypes = {};

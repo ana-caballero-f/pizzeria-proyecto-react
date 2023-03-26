@@ -18,6 +18,7 @@ const ReservasComponent = () => {
   }
   
   return ( 
+  <body className={styles.BodyReservas}>
   <div className={styles.ReservasComponent}>
 
       <div className={styles.Contacto}>
@@ -49,6 +50,7 @@ const ReservasComponent = () => {
       </div>
 
   </div>
+  </body>
 );
 }
 ReservasComponent.propTypes = {};
