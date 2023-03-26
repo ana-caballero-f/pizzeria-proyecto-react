@@ -28,14 +28,14 @@ return (
     <Form>
       <FormGroup>
         <FormLabel>Nombre</FormLabel>
-        <input value={username} onChange={(e) => setUsername(e.target.value)} placeholder='Introduce tu nombre' type={'text'}></input>
+        <input placeholder='Introduce tu nombre' type={'text'}></input>
       </FormGroup>
 
       <FormGroup>
         <FormLabel>Contraseña</FormLabel>
-        <input value={password} onChange= {(e) => setPassword(e.target.value)} placeholder='Introduce tu contraseña' type={'password'}></input>
+        <input placeholder='Introduce tu contraseña' type={'password'}></input>
       </FormGroup>
-      <Button onClick= {tryLogin}>Login</Button>
+      <Button>Login</Button>
     </Form>
   </div>
 )

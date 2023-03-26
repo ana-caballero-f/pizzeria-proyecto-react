@@ -1,1 +1,35 @@
-/*# sourceMappingURL=CartaComponent.module.css.map */
+.CartaComponent {
+  border: 1px solid #a52a2a;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 85%;
+}
+.CartaComponent h2 {
+  color: rgb(200, 17, 17);
+  margin-top: 40px;
+}
+
+.TitleCarta {
+  font-family: monospace;
+  font-weight: bolder;
+}
+
+.ContainerCarta {
+  display: flex;
+  flex-direction: column-reverse;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.Name {
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 20px;
+  margin-top: 30px;
+  color: rgb(2, 103, 63);
+}
+
+.Price {
+  margin-bottom: 20px;
+  font-size: 20px;
+}/*# sourceMappingURL=CartaComponent.module.css.map */

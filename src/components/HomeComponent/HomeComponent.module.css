@@ -1,4 +1,39 @@
-.NavLink {
+.HomeComponent {
+  width: 1000px;
+  height: 940px;
+}
+
+.Name {
+  font-family: monospace;
+  font-size: 4.5em;
+  position: relative;
+  left: 45rem;
+  top: 10rem;
+  background: -webkit-linear-gradient(135deg, red, white, rgb(39, 123, 6));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Name.outline {
+  transform: translate(20px, 20px);
+  background: #555;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.HomeLinks {
+  position: relative;
+  top: 500px;
+  left: 600px;
+}
+
+.HomeNavLink {
   text-decoration: none;
-  color: black;
+  color: rgb(253, 248, 248);
+  font-family: monospace;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: space-around;
+}
+.HomeNavLink:hover {
+  text-shadow: 2px 2px 8px #f9f3f3;
 }/*# sourceMappingURL=HomeComponent.module.css.map */

@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"ReservasComponent.module.css"}
+{"version":3,"sources":["ReservasComponent.module.scss","ReservasComponent.module.css"],"names":[],"mappings":"AAEA;EACI,aAAA;EACA,6BAAA;EAEA,iBAAA;EACA,sBAAA;EACA,WAAA;EACA,YAAA;EAGA,yDAAA;EACA,sBAAA;ACJJ;;ADSA;EAEI,uBAAA;ACPJ;;ADUA;EACI,cAAA;ACPJ","file":"ReservasComponent.module.css"}

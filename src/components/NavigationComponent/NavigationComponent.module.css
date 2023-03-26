@@ -1,4 +1,10 @@
-.NavLink {
+.NavigationNavLink {
   color: black;
   padding: 10px;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 1.4rem;
+}
+.NavigationNavLink:hover {
+  color: white;
 }/*# sourceMappingURL=NavigationComponent.module.css.map */

@@ -1,4 +1,4 @@
 .HomePage {
-  background-color: orange;
-  background-image: image("pizza.jpg");
+  background-image: url("../../assets/images/fondoHome.jpg");
+  background-size: cover;
 }/*# sourceMappingURL=HomePage.module.css.map */

@@ -7,11 +7,11 @@ import { Link } from 'react-router-dom';
 
 const HomeComponent = () => (
   <div className={styles.HomeComponent}>
-    <div className={styles.Links}>
-      <h1 className={styles.Name}>Trattoría Vecchia Napoli </h1>
-      <Link className={styles.NavLink} to='/carta'>Carta</Link> 
-      <Link className={styles.NavLink} to='/reservas'>Reservas & contacto</Link>
-    </div>
+    <h1 className={styles.Name}>Trattoría Vecchia Napoli </h1>
+      <div className={styles.HomeLinks}>
+        <Link className={styles.HomeNavLink} to='/carta'>Carta</Link> 
+        <Link className={styles.HomeNavLink} to='/reservas'>Reservas & contacto</Link>
+      </div>
   </div>
 );
 
