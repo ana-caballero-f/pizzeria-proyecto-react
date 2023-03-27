@@ -5,41 +5,64 @@ import styles from './LoginComponent.module.scss';
 /* importar bootstrap, useState. useDispatch, doLogin */
 import { Form, Container, FormGroup, FormLabel, Button } from 'react-bootstrap';
 import { useState } from 'react';
-import { useDispatch } from 'react-redux';
-import { doLogin } from '../../store/autentificacion/actions';
 
 
 
-const LoginComponent = () =>  {
+const LoginComponent = ({loginUser}) =>  {
+   const Initial_state = {
+    username: "",
+    password:""
+}
 
-  /* crear las variables que contienen los valores del nombre y el password */
-  const [username, setUsername] = useState("")
-  const [password, setPassword] = useState("")
+    const [FormUser, setFormUser] = useState(Initial_state);
 
-  // const dispatch = useDispatch()
 
-  function tryLogin() {
-    // dispatch(doLogin({username:username, password: password}))
-  }
+    const handleInput =(e) => {
+    const {id, value} = e.target;
+    setFormUser({...FormUser,[id]: value})
+}
+ 
+    const onSubmit = (e) => {
+      e.preventDefault()
+      const {username, password} = FormUser;
+      loginUser({username, password})
+    }
+
 
 
 return (
   <div className={styles.LoginComponent}>
-    <Form>
+
+        <form onSubmit={onSubmit}>
+
+        <label htmlFor="username">Name</label>
+        <input type="text" id='username' value={FormUser.username} onChange={handleInput}/>
+
+        <label htmlFor="password">Password</label>
+        <input type="text" id='password' value={FormUser.password} onChange={handleInput}/>
+        <button type='submit'>Login</button>
+        </form>
+  
+
+    {/* <Form>
       <FormGroup>
         <FormLabel>Nombre</FormLabel>
-        <input placeholder='Introduce tu nombre' type={'text'}></input>
+        <input id='username' value={FormUser.username} onChange={handleInput} placeholder='Introduce tu nombre' type='text'></input>
       </FormGroup>
 
       <FormGroup>
         <FormLabel>Contraseña</FormLabel>
-        <input placeholder='Introduce tu contraseña' type={'password'}></input>
+        <input id='password' value={FormUser.password} onChange={handleInput} placeholder='Introduce tu contraseña' type='password'></input>
       </FormGroup>
-      <Button>Login</Button>
+      <Button onSubmit={onSubmit}>Login</Button>
     </Form>
   </div>
+) */}
+
+</div>
 )
-};
+}
+
 
 LoginComponent.propTypes = {};
 

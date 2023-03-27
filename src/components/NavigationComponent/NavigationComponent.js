@@ -5,7 +5,7 @@ import styles from './NavigationComponent.module.scss';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-const NavigationComponent = () => {
+const NavigationComponent = ({authenticated}) => {
   return (
     <Navbar bg="secondary" variant='dark'>
       <Container>
@@ -15,7 +15,14 @@ const NavigationComponent = () => {
           <Link className={styles.NavigationNavLink} to='/about'>Sobre nosotros</Link>          
           <Link className={styles.NavigationNavLink} to='/reservas'>Reservas & contacto</Link>          
           <Link className={styles.NavigationNavLink} to='/comments'>Comentarios</Link>
-          <Link className={styles.NavigationNavLink} to='/login'>Login</Link>
+          <Link className={styles.NavigationNavLink} to='/pedidos'>Pedidos</Link>
+          
+          {authenticated ? (
+            <Link className={styles.NavigationNavLink} to='/pedidos'>Pedidos</Link>
+          ) : (
+            <Link className={styles.NavigationNavLink} to='/login'>Login</Link>
+          )}
+
         </Nav>
       </Container>
     </Navbar>
