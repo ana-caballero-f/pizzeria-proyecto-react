@@ -19,47 +19,41 @@ import 'swiper/scss/navigation';
 
 const MultiCommentsComponent = () => {
   const dispatch = useDispatch()
-
   const {comments, loadingComments} = useSelector((state) => state.ComentariosReducer)
 
   useEffect(() => {
     dispatch(getComments())
   },[])
 
-  return(
-  <Container>
-  
+  return( 
+  <div className={styles.ContainerComments}>
   <Swiper 
       style={{
         "--swiper-navigation-color": "#000000",
         "--swiper-navigation-border": "solid black 2px"
-        // "--swiper-pagination-color": "#000000",
       }}
           modules={[Navigation, Pagination, A11y, Autoplay]}
           spaceBetween={55}
-          slidesPerView={3}
-          // navigation
-          // pagination={{ clickable: true, loop: true }}
-          // autoplay
+          slidesPerView={4}
+          autoplay
           >
 
      {comments.map(comentario => {
      return (
-      <Card className='px-6 py-3 mb-4'>
-      <SwiperSlide>
-        <Card.Title>
-        <Link to={`/comment/${comentario.id}`}> {comentario.name} </Link>
-        </Card.Title>
-        <Card.Title>{comentario.body}</Card.Title>
+      <div>
+        <SwiperSlide className={styles.Contenedor}>
+          <h4>
+          <Link className={styles.TitleComments} to={`/comment/${comentario.id}`}> {comentario.name} </Link>
+          </h4>
+          <p className={styles.TitleParagraph}>{comentario.body}</p>
         </SwiperSlide>
-      </Card>
+      </div>
      )
      })}
      </Swiper>
-  </Container>
+  </div>
+  
   )
-
-
 };
 
 MultiCommentsComponent.propTypes = {};

@@ -11,11 +11,10 @@ const CommentComponent = () => {
 
   return(
   <div className={styles.CommentComponent}>
-    {comment.name}
-    {comment.body}
-    {comment.id}
-    {comment.email}
-    
+    <h4 className={styles.CommentTitle}> {comment.name} </h4>
+      <p className={styles.CommentBody}> {comment.body} </p>
+      <p className={styles.CommentData}>Identificador número: {comment.id} </p>
+      <p className={styles.CommentData}>{comment.email} </p> 
   </div>
   )
 

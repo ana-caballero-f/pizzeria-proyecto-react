@@ -1,1 +1,25 @@
 .MultiCommentsComponent {}
+
+.ContainerComments {
+    // background-color: orange;
+    width: 90%;
+    padding-left: 600px;
+}
+
+.Contenedor{
+    border: solid rgb(248, 241, 241) 3px;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.TitleComments {
+    text-decoration: none;
+    color: white;
+    &:hover {
+        color: rgb(23, 126, 32);
+    }
+}
+
+.TitleParagraph {
+    color: white;
+}
