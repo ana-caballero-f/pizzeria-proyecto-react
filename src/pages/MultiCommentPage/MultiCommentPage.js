@@ -4,7 +4,7 @@ export default function MultiCommentPage () {
 
     return (
         <div className={styles.MultiCommentPage}>
-           <h1>Comentarios page</h1>
+           <h1>Opiniones de nuestros clientes:</h1>
            <MultiCommentsComponent></MultiCommentsComponent>
         </div>
     )

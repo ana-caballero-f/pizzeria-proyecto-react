@@ -11,6 +11,7 @@ import AboutPage from './pages/AboutPage/AboutPage';
 import ReservaPage from './pages/ReservaPage/ReservaPage';
 import MultiCommentsPage from './pages/MultiCommentPage/MultiCommentPage';
 import LoginPage from './pages/LoginPage/LoginPage';
+import CommentPage from './pages/CommentPage/CommentPage';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route exact path='/reservas' element={<ReservaPage/>}></Route>
         <Route exact path='/comments' element={<MultiCommentsPage/>}></Route>
         <Route exact path='/login' element={<LoginPage/>}></Route>
+        <Route exact path= '/comment/:id' element={<CommentPage/>}></Route>
       </Routes>
     
     </div>

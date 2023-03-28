@@ -1,9 +1,9 @@
 import { combineReducers } from "redux";
-import CommentsReducer from "./comentarios/reducer"
+import ComentariosReducer from "./comentarios/reducer"
 // import AuthReducer from "./autentificacion/reducer";
 
 const rootReducer = combineReducers({
-    CommentsReducer,
+    ComentariosReducer,
     // AuthReducer
 })
 
