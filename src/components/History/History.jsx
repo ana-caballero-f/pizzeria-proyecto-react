@@ -3,27 +3,30 @@ import styles from './History.module.css';
 
 
 const History = ({history}) =>(
-    <div className={styles.History}>
-    <section className={styles.Text}>
-    <div className={styles.TitleHistory}>
+<div className={styles.History}>
+
+    <section className={styles.Parrafo}>
+        <div className={styles.Title}>
         <h1>{history.title}</h1>
-    </div>
+        </div>
 
-    <div className={styles.SubtitleHistory}>
+        <div className={styles.Subtitle}>
         <h3>{history.subtitle}</h3>
-    </div>
+        </div>
 
-    <div className={styles.TextHistory}>
-        <p>{history.story}</p>
+    <div className={styles.Text}>
+        <p>{history.story1}</p> <br/>
+        <p>{history.story2}</p>
+
     </div>
     </section>
 
-    <section className={styles.Image}>
+    <section>
         <img src={history.image} alt='Foto restaurante'/>
     </section>
 
 
-    </div>
+</div>
 );
 
 
