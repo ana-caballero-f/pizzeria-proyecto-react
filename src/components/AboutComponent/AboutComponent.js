@@ -14,7 +14,7 @@ function AboutComponent () {
 
   <div className={styles.AboutComponent}>
     <h1 className={styles.TitleAbout}>SOBRE NOSOTROS</h1>
-    <p><span>Trattoria Vecchia Napoli</span> es una parte de Italia en pleno centro de Madrid.</p>
+    <p><span>Trattoria Vecchia Napoli</span> es una parte de Italia en pleno centro de Sevilla.</p>
     <p>Nuestra oferta gastronómica, netamente italiana, se caracteriza por el profundo respeto a la materia prima.
     El cliente vivirá un recorrido gastronómico sensible y contemporáneo del norte al sur de Italia. </p> <br/>
 

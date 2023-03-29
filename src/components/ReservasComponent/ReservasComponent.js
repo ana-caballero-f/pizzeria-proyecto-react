@@ -25,9 +25,9 @@ const ReservasComponent = () => {
 
       <h2>CONTACTA CON NOSOTROS</h2>
         <p> ☎️ 777-777-777 </p>
-        <p> 📍 C/ Arroyo, 17. Madrid</p>
+        <p> 📍 C/ Reyes Católicos, 25. Sevilla</p>
         <p> 📧 vecchianapoli@gmail.com</p> 
-        <p> ⏰ de 13:00h-16:00h / 19:30h-23:00h </p>
+        <p> ⏰ de 13:00h-16:30h / 19:30h-23:00h </p>
         <h4>Lunes cerrado por descanso</h4> 
       
       </div>
