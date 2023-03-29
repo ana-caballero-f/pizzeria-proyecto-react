@@ -24,11 +24,14 @@ function AboutComponent () {
     Este nuevo local cuenta con 200m² y una gran terraza que ocupa toda la esquina de Reyes Católicos y Paseo de Colón. 
     Su interior está diseñado para ser un espacio único que quiere ser al mismo tiempo acogedor y diferente.</p> <br/>
 
+    <p> En <span>Trattoria Vecchia Napoli</span> entendemos la cocina como una experiencia divertida, fácil y directa.
+            Una auténtica carta diseñada para ti, para veganos, para amantes de la gastronomía, para intolerantes a la lactosa, para tu familia, 
+            ¡per tutti con amore!</p><br/>
     
 
   <div className={styles.ContainerBtn}>
-    <button className={styles.History} onClick = {()=>setShowHistory(true)}>Nuestra historia</button>
-    <button className={styles.Phillosophy} onClick = {()=>setShowHistory(false)}>Nuestra filosofía</button>
+    <button className={styles.CustomBtnHistory} onClick = {()=>setShowHistory(true)}>Nuestra historia</button>
+    <button className={styles.CustomBtn} onClick = {()=>setShowHistory(false)}>Nuestra filosofía</button>
   </div>
 
   <div>
