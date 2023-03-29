@@ -1,11 +1,19 @@
 .AboutComponent {
-    background-image: url("../../assets/images/fondo3.jpg");
+    background-image: url("../../assets/images/fondo5.avif");
     background-size: cover;
     width: 100%;
     height: 100%;
-    padding:400px;
+    padding:300px;
     color: whitesmoke; 
 }
 span{
     font-weight: bolder;
+}
+
+.TitleAbout {
+    padding-top: 0;
+    color: red;
+}
+span {
+    color: green;
 }
