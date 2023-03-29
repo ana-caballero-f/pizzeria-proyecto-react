@@ -1,15 +1,29 @@
-.NavigationComponent {}
+.NavigationComponent {
+   
+}
+
+.NavBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content:baseline;
+    background-image: url("../../assets/images/contacto.jpg") ;
+    background-size: cover;
+}
 
 .NavigationNavLink {
-    color: black;
+    color: rgb(249, 244, 244);
     padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px ;
     text-decoration: none;
     &:hover{
-        color: white;
+        color: red
     }
     font: {
         family: monospace;
         size: 1.4rem;
+        weight:bold;
     }
- 
+
 }

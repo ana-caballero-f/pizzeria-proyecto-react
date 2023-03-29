@@ -2,7 +2,7 @@ import './App.css';
 
 import { Route, Routes } from 'react-router-dom';
 import NavigationComponent from './components/NavigationComponent/NavigationComponent';
-import LogoComponent from './components/LogoComponent/LogoComponent'
+
 
 
 import HomePage from './pages/HomePage/HomePage';
@@ -16,7 +16,7 @@ import CommentPage from './pages/CommentPage/CommentPage';
 function App() {
   return (
     <div className="App">
-      <LogoComponent></LogoComponent>
+      
       <NavigationComponent></NavigationComponent>
       <Routes>
         <Route exact path='/' element={<HomePage/>}></Route>
