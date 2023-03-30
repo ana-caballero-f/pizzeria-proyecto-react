@@ -1,6 +1,4 @@
 import styles from './LoginPage.module.scss';
-
-
 import LoginComponent from '../../components/LoginComponent/LoginComponent'
 
 

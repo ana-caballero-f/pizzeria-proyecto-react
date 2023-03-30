@@ -1,1 +1,27 @@
-/*# sourceMappingURL=CommentComponent.module.css.map */
+.CommentComponent {
+  position: relative;
+  left: 15rem;
+  top: 15rem;
+  border: solid rgb(250, 246, 246) 3px;
+  margin: auto;
+  width: 40%;
+  padding: 30px;
+}
+
+.CommentTitle {
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.CommentBody {
+  color: white;
+  font-family: monospace;
+  font-size: 1.2rem;
+}
+
+.CommentData {
+  color: white;
+}/*# sourceMappingURL=CommentComponent.module.css.map */

@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"MultiCommentsComponent.module.css"}
+{"version":3,"sources":["MultiCommentsComponent.module.scss","MultiCommentsComponent.module.css"],"names":[],"mappings":"AAEA;EAEI,UAAA;EACA,mBAAA;ACFJ;;ADKA;EACI,oCAAA;EACA,cAAA;EACA,aAAA;ACFJ;;ADKA;EACI,qBAAA;EACA,YAAA;ACFJ;ADGI;EACI,uBAAA;ACDR;;ADKA;EACI,YAAA;ACFJ","file":"MultiCommentsComponent.module.css"}

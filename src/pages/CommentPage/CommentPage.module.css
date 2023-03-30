@@ -1,1 +1,6 @@
-/*# sourceMappingURL=CommentPage.module.css.map */
+.CommentPage {
+  width: 100%;
+  height: 880px;
+  background-image: url("../../assets/images/fondo2.jpg");
+  background-size: cover;
+}/*# sourceMappingURL=CommentPage.module.css.map */

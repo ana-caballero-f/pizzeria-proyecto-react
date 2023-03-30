@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"CommentComponent.module.css"}
+{"version":3,"sources":["CommentComponent.module.scss","CommentComponent.module.css"],"names":[],"mappings":"AAAA;EACI,kBAAA;EACA,WAAA;EACA,UAAA;EACA,oCAAA;EACA,YAAA;EACA,UAAA;EACA,aAAA;ACCJ;;ADEA;EACI,YAAA;EACA,kBAAA;EAEI,sBAAA;EACA,iBAAA;EACA,iBAAA;ACAR;;ADIA;EACI,YAAA;EAEI,sBAAA;EACA,iBAAA;ACFR;;ADMA;EACI,YAAA;ACHJ","file":"CommentComponent.module.css"}

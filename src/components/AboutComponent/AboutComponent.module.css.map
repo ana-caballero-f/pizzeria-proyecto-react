@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"AboutComponent.module.css"}
+{"version":3,"sources":["AboutComponent.module.scss","AboutComponent.module.css"],"names":[],"mappings":"AAAA;EACI,wDAAA;EACA,sBAAA;EACA,WAAA;EACA,YAAA;EACA,cAAA;EACA,iBAAA;ACCJ;;ADCA;EACI,mBAAA;ACEJ;;ADCA;EACI,cAAA;EACA,UAAA;ACEJ;;ADAA;EACI,YAAA;ACGJ","file":"AboutComponent.module.css"}
