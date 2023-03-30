@@ -1,1 +1,12 @@
-/*# sourceMappingURL=MultiCommentPage.module.css.map */
+.MultiCommentPage {
+  width: 100%;
+  height: 880px;
+  background-image: url("../../assets/images/fondo2.jpg");
+  background-size: cover;
+}
+
+.TitlePage {
+  padding: 100px;
+  text-align: center;
+  color: white;
+}/*# sourceMappingURL=MultiCommentPage.module.css.map */

@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"MultiCommentPage.module.css"}
+{"version":3,"sources":["MultiCommentPage.module.scss","MultiCommentPage.module.css"],"names":[],"mappings":"AAAA;EAGI,WAAA;EACA,aAAA;EACA,uDAAA;EACA,sBAAA;ACDJ;;ADIA;EACI,cAAA;EACA,kBAAA;EACA,YAAA;ACDJ","file":"MultiCommentPage.module.css"}
