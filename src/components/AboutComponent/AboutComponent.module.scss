@@ -1,5 +1,5 @@
 .AboutComponent {
-    background-image: url("../../assets/images/fondo5.avif");
+    background-image: url("../../assets/images/fondo6.jpg");
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -12,8 +12,74 @@ span{
 
 .TitleAbout {
     padding-top: 0;
-    color: red;
-}
-span {
     color: green;
 }
+span {
+    color: red;
+}
+.ContainerBtn {
+  border-radius: 10px 10px;
+  color: rgb(246, 236, 236);
+  display: block;
+  margin: 0 auto;
+  margin: 0 auto;
+  margin-top: 20px;
+  opacity: 70%;
+  text-align: center;
+
+}
+
+.CustomBtnHistory {
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: bold;
+    height: 70px;
+    margin: 40px;
+    opacity: 60%;
+    padding: 10px 25px;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: center;
+    transition: all 0.3s ease;
+    width: 160px;
+}
+
+.CustomBtn {
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: bold;
+    height: 70px;
+    margin: 40px;
+    opacity: 60%;
+    padding: 10px 25px;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: center;
+    transition: all 0.3s ease;
+    width: 160px;
+}
+  
+  .CustomBtnHistory:hover {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 white, -0.3em 0 0.5em #09de5e;
+    color: black;
+    cursor: pointer;
+    opacity: 95%;
+}
+.CustomBtn:hover {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 white, -0.3em 0 0.5em #c31313;
+    color: black;
+    cursor: pointer;
+    opacity: 95%;
+} 

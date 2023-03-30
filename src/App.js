@@ -3,7 +3,7 @@ import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import NavigationComponent from './components/NavigationComponent/NavigationComponent';
-import LogoComponent from './components/LogoComponent/LogoComponent'
+
 
 
 import HomePage from './pages/HomePage/HomePage';
@@ -22,7 +22,7 @@ function App() {
   const {user} = useSelector((state)=> state.AutenReducer)
   return (
     <div className="App">
-      <LogoComponent></LogoComponent>
+      
       <NavigationComponent></NavigationComponent>
       <Routes>
         <Route exact path='/' element={<HomePage/>}></Route>
