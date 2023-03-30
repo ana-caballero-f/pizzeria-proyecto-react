@@ -25,7 +25,9 @@ const NavigationComponent = () => {
             <Link className={styles.NavigationNavLink} to='/reservas'>Reservas & contacto</Link>          
             <Link className={styles.NavigationNavLink} to='/comments'>Comentarios</Link>
             <Link className={styles.NavigationNavLink} to='/login'>Login</Link>
+            <Link className={styles.NavigationNavLink} to='/pedidos'>Pedidos</Link>
           </Nav>
+          
       </div>
       
     
